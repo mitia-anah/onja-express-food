@@ -8,7 +8,6 @@ const title = document.querySelector("#name");
 
 // New order
     submitButton.addEventListener("click", $event => {
-        if ($event.target.value === "true") {
         const div = document.querySelector('.order-list');
         const detailButton = document.querySelector('.details');
         const servedButton = document.querySelector(".served");
@@ -21,7 +20,6 @@ const title = document.querySelector("#name");
         </div>
     `;
     div.innerHTML = myHTML;
-        }
     });
     
     
